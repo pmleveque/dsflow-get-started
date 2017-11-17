@@ -14,15 +14,23 @@ This project contains the codebase of the dsflow CLI and dsflow framework. Use t
 
 #### Pre-requisites on Mac:
 
-Brew, Python and Docker need to be installed on your system.
+Brew and Python need to be installed on your system.
 If not, execute in your terminal:
 
 ```
 xcode-select --install
 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew cask install docker
 brew install python
 ```
+
+Docker also is needed:
+
+```
+brew cask install docker
+```
+
+Troubleshoot:  
+If your xcode is outdated, update it with the app store, or move it to Trash.
 
 Installation on Ubuntu: https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/
 
